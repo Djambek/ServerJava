@@ -26,7 +26,7 @@ public class Main {
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
             LocalDateTime now = LocalDateTime.now();
             out.println("now: " + dtf.format(now));
-            out.println("<meta http-equiv=\"Refresh\" content=\"1; URL=http://172.30.101.228:8000\" />");
+            out.println("<meta http-equiv=\"Refresh\" content=\"1; URL=http://localhost:8000\" />");
             s.close();
         }
         //
